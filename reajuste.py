@@ -1,0 +1,5 @@
+print("Reajuste salarial")
+sal = float(input("Digite o seu salário: "))
+reajuste = float(sal*0.35)
+aumento=int(sal+reajuste)
+print('O salário atual é de:',aumento)
